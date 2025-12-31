@@ -44,8 +44,8 @@ export const BottomNavigation: React.FC = () => {
   const tabs = [
     { id: 'home', label: 'Home', icon: require('../Assest/home.png'), screenName: 'Home' },
     { id: 'library', label: 'Car Library', icon: require('../Assest/Car_Auto.png'), screenName: 'CarLibrary' },
-    { id: 'services', label: 'Services', icon: require('../Assest/Group.png'), screenName: 'Services' },
-    { id: 'profile', label: 'Profile', icon: require('../Assest/Group.png'), screenName: 'Profile' },
+    { id: 'services', label: 'Group', icon: require('../Assest/Group.png'), screenName: 'Services' },
+    { id: 'profile', label: 'Profile', icon: require('../Assest/Profile.png'), screenName: 'Profile' },
   ];
 
   return (
